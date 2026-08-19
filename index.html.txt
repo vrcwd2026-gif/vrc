@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Welivitiya Divithura Business Network</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, "Noto Sans Sinhala", sans-serif;
+    background: #f5f7fa;
+    color: #263238;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #1565C0, #0D47A1);
+    color: white;
+    padding: 25px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+nav {
+    background: white;
+    padding: 12px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: #0D47A1;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #2E7D32;
+}
+
+.hero {
+    padding: 70px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #e3f2fd, #e8f5e9);
+}
+
+.hero h2 {
+    color: #0D47A1;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 13px 25px;
+    background: #2E7D32;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #1B5E20;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+.section-title {
+    text-align: center;
+    color: #0D47A1;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 18px;
+}
+
+.card {
+    background: white;
+    padding: 25px 15px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card .icon {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.business {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.business-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.business-card h3 {
+    color: #1565C0;
+    margin-bottom: 8px;
+}
+
+.whatsapp {
+    display: inline-block;
+    margin-top: 15px;
+    background: #25D366;
+    color: white;
+    padding: 9px 16px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.contact {
+    background: #e8f5e9;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+footer {
+    background: #0D47A1;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media(max-width:600px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 14px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌐 Welivitiya Divithura Business Network</h1>
+    <p>දේශීය ව්‍යාපාර • දේශීය නිෂ්පාදන • දේශීය අවස්ථා</p>
+</header>
+
+<nav>
+    <a href="#home">මුල් පිටුව</a>
+    <a href="#categories">ව්‍යාපාර</a>
+    <a href="#businesses">ව්‍යාපාරිකයන්</a>
+    <a href="#contact">සම්බන්ධ වන්න</a>
+</nav>
+
+<section class="hero" id="home">
+
+    <h2>වැලිවිටිය දිවිතුර Business Network</h2>
+
+    <p>
+        වැලිවිටිය දිවිතුර ප්‍රදේශයේ ව්‍යවසායකයන්,
+        වෙළඳුන්, නිෂ්පාදකයන් සහ සේවා සපයන්නන්
+        එකම ඩිජිටල් ජාලයකට සම්බන්ධ කරමු.
+    </p>
+
+    <a href="#businesses" class="btn">
+        ව්‍යාපාර සොයන්න
+    </a>
+
+</section>
+
+<section class="container" id="categories">
+
+    <h2 class="section-title">ප්‍රධාන ව්‍යාපාර කාණ්ඩ</h2>
+
+    <div class="categories">
+
+        <div class="card">
+            <div class="icon">🍛</div>
+            <h3>ආහාර හා පාන</h3>
+        </div>
+
+        <div class="card">
+            <div class="icon">🌱</div>
+            <h3>කෘෂිකර්මය</h3>
+        </div>
+
+        <div class="card">
+            <div class="icon">👗</div>
+            <h3>ඇඳුම්</h3>
+        </div>
+
+        <div class="card">
+            <div class="icon">💇</div>
+            <h3>Beauty & Wellness</h3>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔧</div>
+            <h3>තාක්ෂණික සේවා</h3>
+        </div>
+
+        <div class="card">
+            <div class="icon">🏠</div>
+            <h3>Home Businesses</h3>
+        </div>
+
+        <div class="card">
+            <div class="icon">🎓</div>
+            <h3>අධ්‍යාපනය</h3>
+        </div>
+
+        <div class="card">
+            <div class="icon">💻</div>
+            <h3>Online Businesses</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="container" id="businesses">
+
+    <h2 class="section-title">
+        Featured Businesses
+    </h2>
+
+    <div class="business">
+
+        <div class="business-card">
+            <h3>🌱 Local Agriculture</h3>
+            <p>දේශීය කෘෂි නිෂ්පාදන</p>
+            <p>📍 වැලිවිටිය දිවිතුර</p>
+            <a class="whatsapp"
+               href="https://wa.me/94770000000"
+               target="_blank">
+               WhatsApp
+            </a>
+        </div>
+
+        <div class="business-card">
+            <h3>🍰 Home Food Business</h3>
+            <p>ගෙදර නිෂ්පාදිත ආහාර හා රසකැවිලි</p>
+            <p>📍 වැලිවිටිය දිවිතුර</p>
+            <a class="whatsapp"
+               href="https://wa.me/94770000000"
+               target="_blank">
+               WhatsApp
+            </a>
+        </div>
+
+        <div class="business-card">
+            <h3>🔧 Technical Services</h3>
+            <p>Electrical & Technical Services</p>
+            <p>📍 වැලිවිටිය දිවිතුර</p>
+            <a class="whatsapp"
+               href="https://wa.me/94770000000"
+               target="_blank">
+               WhatsApp
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="container">
+
+    <h2 class="section-title">
+        🇱🇰 Made in Welivitiya Divithura
+    </h2>
+
+    <div class="card">
+
+        <h3>අපේ ප්‍රදේශයෙන් • අපේ නිෂ්පාදන</h3>
+
+        <p>
+            වැලිවිටිය දිවිතුර ප්‍රදේශයේ නිෂ්පාදනය කරන
+            දේශීය නිෂ්පාදන සහ ව්‍යවසායකයන්
+            Digital ලෝකයට හඳුන්වා දෙමු.
+        </p>
+
+        <a href="#contact" class="btn">
+            ඔබේ නිෂ්පාදනය එක් කරන්න
+        </a>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h2 class="section-title">
+        ඔබේ ව්‍යාපාරය Network එකට එක් කරන්න
+    </h2>
+
+    <p>
+        ඔබ වැලිවිටිය දිවිතුර ප්‍රදේශයේ
+        ව්‍යාපාරයක් පවත්වාගෙන යනවාද?
+    </p>
+
+    <p>
+        අපගේ Business Network එකට සම්බන්ධ වන්න.
+    </p>
+
+    <a class="btn"
+       href="https://wa.me/94770000000"
+       target="_blank">
+       WhatsApp හරහා සම්බන්ධ වන්න
+    </a>
+
+</section>
+
+<footer>
+
+    <p>
+        © 2026 Welivitiya Divithura Business Network
+    </p>
+
+    <p>
+        දේශීය ව්‍යාපාර • දේශීය නිෂ්පාදන • දේශීය අවස්ථා
+    </p>
+
+</footer>
+
+</body>
+</html>
